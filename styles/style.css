@@ -1,0 +1,673 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap");
+
+:root {
+  --main-color: #fff;
+  --black-color: #121212;
+  --border: 0.1rem solid rgba(255, 255, 255, 0.4);
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: none;
+  transition: 0.2s ease;
+}
+
+/*! base html codes */
+html {
+  font-size: 62.5%;
+
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+html::-webkit-scrollbar {
+  width: 0.8rem;
+  background-color: #fff;
+}
+html::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+html::-webkit-scrollbar-thumb {
+  border-radius: 3rem;
+  background-color: var(--border);
+}
+
+body {
+  background-color: var(--main-color);
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+section {
+  padding: 0rem 12rem;
+}
+
+.space {
+  height: 14rem;
+  background-color: var(--main-color);
+}
+/* header start*/
+.nav-list1 {
+  margin: 1rem 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.nav-list1 .nav1 a {
+  color: rgb(123, 123, 123);
+  padding: 0rem 1rem;
+}
+.nav-list1 .nav1 .hbp {
+  color: rgb(255, 96, 0);
+}
+.nav-list1 .nav1 .gk {
+  color: rgb(237, 67, 62);
+}
+/* header end*/
+
+/* main header start*/
+
+.mainheader {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 99%;
+}
+.mainheader .mainlogo {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.mainheader .mainlogo img {
+  width: 20rem;
+}
+.mainheader .mainlogo .premiumu {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: rgb(255, 96, 0);
+}
+.mainheader .mainlogo .premiumu span {
+  color: rgb(72, 72, 72);
+}
+.mainheader .mainsearchbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 0.11rem solid rgb(145, 145, 145);
+  border-radius: 0.5rem;
+  border-width: 0.25rem;
+}
+.mainheader .mainsearchbox input {
+  width: 40rem;
+  height: 4.5rem;
+  opacity: 0.35;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.mainheader .mainsearchbox i {
+  font-size: 2.5rem;
+  padding: 0rem 1.4rem;
+  opacity: 0.2;
+}
+.mainheader .mainsearchbox button {
+  color: white;
+  font-weight: 500;
+  font-size: 1.8rem;
+  height: 4.5rem;
+  width: 10%;
+  background-color: rgb(145, 145, 145);
+}
+.mainheader .mainlocation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mainheader .mainlocation img {
+  width: 4rem;
+}
+.mainheader .mainlocation .locationaddress .location {
+  font-weight: 500;
+  color: rgb(72, 72, 72);
+  letter-spacing: 0rem;
+  font-size: 1.7rem;
+}
+.mainheader .mainlocation .locationaddress .address {
+  font-size: 1.2rem;
+  color: rgb(255, 96, 0);
+}
+.locationangle {
+  display: flex;
+  align-self: end;
+  color: rgb(255, 96, 0);
+}
+.mainheader .mainaccount {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  width: 15rem;
+  height: 4.5rem;
+  border: 0.2rem solid rgb(145, 145, 145);
+  border-radius: 0.5rem;
+}
+.mainheader .mainaccount .account {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mainheader .mainaccount i {
+  color: rgb(145, 145, 145);
+}
+.mainheader .mainaccount .account .accountname .myaccount {
+  color: rgb(72, 72, 72);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.mainheader .mainaccount i {
+  font-size: 2.5rem;
+}
+.mainheader .mainaccount .account i {
+  font-size: 2.5rem;
+}
+.mainheader .maincart {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 12rem;
+  height: 4.5rem;
+  border: 0.2rem solid rgb(145, 145, 145);
+  border-radius: 0.5rem;
+  background-color: rgb(145, 145, 145);
+}
+.mainheader .maincart i {
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+}
+
+.mainheader .maincart .mycart {
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+/* main header end */
+
+/* colorful line start */
+
+.colorfulline {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 1.2rem 0;
+  margin-bottom: 0;
+}
+.colorfulline .orangeline {
+  height: 0.8rem;
+  width: 60rem;
+  background-color: rgb(255, 96, 0);
+}
+
+.colorfulline .cyanline {
+  height: 0.8rem;
+  width: 60rem;
+  background-color: rgb(73, 199, 237);
+}
+.colorfulline .purpleline {
+  height: 0.8rem;
+  width: 30rem;
+  background-color: rgb(119, 35, 219);
+}
+.colorfulline .greenline {
+  height: 0.8rem;
+  width: 30rem;
+  background-color: rgb(87, 185, 0);
+}
+.colorfulline .blackline {
+  height: 0.8rem;
+  width: 30rem;
+  background-color: rgb(93, 25, 106);
+}
+/* colorful line end */
+
+/* menu items start */
+
+.mainmenuitems {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(245, 245, 245);
+  height: 5.5rem;
+  width: 100%;
+}
+
+.mainmenuitems .mainmenuitemscontainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin: 0 18rem;
+  background-color: rgb(245, 245, 245);
+  height: 5.5rem;
+  width: 100%;
+  color: rgb(100, 100, 100);
+}
+.mainmenuitems .mainmenuitemscontainer span {
+  display: block;
+  text-align: center;
+}
+.mainmenuitems .mainmenuitemscontainer .electronic {
+  text-align: center;
+}
+.mainmenuitems .mainmenuitemscontainer .fashion {
+  text-align: center;
+}
+.mainmenuitems .mainmenuitemscontainer .homelivingstationeryoffice {
+  text-align: center;
+}
+.mainmenuitems .mainmenuitemscontainer .autogardenconstructionmarket {
+  text-align: center;
+}
+
+.mainmenuitems .mainmenuitemscontainer .motherbabytoy {
+  text-align: center;
+}
+.mainmenuitems .mainmenuitemscontainer .sportoutdoor {
+  text-align: center;
+}
+.mainmenuitems .mainmenuitemscontainer .cosmeticpersonalcare {
+  text-align: center;
+}
+.mainmenuitems .mainmenuitemscontainer .supermarketpetshop {
+  text-align: center;
+}
+.mainmenuitems .mainmenuitemscontainer .bookmusicmoviehobby {
+  text-align: center;
+}
+.mainmenuitems .mainmenuitemscontainer .borders {
+  width: 0.01rem;
+  height: 2rem;
+  background-color: rgb(100, 100, 100);
+  opacity: 0.3;
+}
+
+/*mainshow start*/
+
+.mainshow {
+  height: 50rem;
+  background-size: cover;
+  background-image: url("/images/samsunggalaxy.jfif");
+  background-repeat: no-repeat;
+}
+.mainshow .mainshowcontainer {
+  margin: 0rem 24rem;
+}
+.mainshow .mainshowcontainer .showoptions {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  justify-content: space-between;
+}
+
+.mainshow .mainshowcontainer .showoptions .buttons {
+  color: #fff;
+
+  margin: 1.5rem 0rem;
+  border-radius: 5rem;
+
+  background-color: transparent;
+}
+.mainshow .mainshowcontainer .showoptions .buttons a {
+  color: #fff;
+  padding: 1rem 1rem;
+  margin: 1.5rem 0rem;
+  border-radius: 5rem;
+  font-weight: 500;
+  font-size: 1.4rem;
+  background-color: transparent;
+}
+.mainshow .mainshowcontainer .showoptions a.active {
+  background-color: white;
+  color: black;
+  padding: 1rem 1rem;
+  margin: 1.5rem 0rem;
+  border-radius: 5rem;
+}
+.mainshow .mainshowcontainer .showscreen {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0;
+  background-color: white;
+  border-radius: 1rem;
+  height: 39rem;
+  margin: 0rem 1rem;
+}
+.mainshow .mainshowcontainer .showscreen .rightshowscreen {
+  margin: 0rem 0.3rem;
+}
+.mainshow .mainshowcontainer .showscreen .rightshowscreen img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+.mainshow .mainshowcontainer .showscreen .leftshowscreen{
+  display: flex;
+  flex-direction: column;
+  align-items:last baseline;
+  width: 40rem;
+  height: 35rem;
+  padding-left:4rem;
+  justify-content:space-between;
+}
+
+.mainshow .mainshowcontainer .showscreen .leftshowscreen .startshoppingbutton{
+  align-self:self-start;
+}
+.mainshow .mainshowcontainer .showscreen .leftshowscreen .textsection{
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  font-size:1.9rem;
+}
+.mainshow .mainshowcontainer .showscreen .leftshowscreen .textsection span{
+  display: flex;
+  align-items: center;
+  margin:2rem 0rem;
+  font-weight: 500;
+  font-size:2.5rem;
+}
+.mainshow .mainshowcontainer .showscreen .leftshowscreen .startshoppingbutton a {
+  align-self:self-end;
+  background-color: rgb(119, 35, 219);
+  color:white;
+  padding: 1.2rem 2rem;
+  margin: 1.5rem 0rem;
+  border-radius: 5rem;
+  font-weight: 500;
+  font-size: 1.4rem;
+  
+}
+.mainshow .mainshowcontainer .showscreen .leftshowscreen .sharebutton button i{
+  background-color: white;
+  font-size: 2rem;
+
+}
+/*mainshow end*/
+
+
+/*superpricesuperoffer start*/
+
+
+
+.superpricesuperoffer{
+  margin:2rem 0rem;
+}
+
+.superpricesuperoffer .superpricesuperoffercontainer .superpricetext{
+  display:flex;
+ 
+  
+  font-weight: 500;
+  font-size:3em ;
+}
+
+.superpricesuperoffer .superpricesuperoffercontainer .superpricetext .superpriceall{
+  color:rgb(246, 109, 0);
+  font-size: 1.4rem;
+  align-self:flex-end;
+}
+.superpricesuperoffer .superpricesuperoffercontainer .superpricetext .superpriceall a i{
+  color:rgb(246, 109, 0);
+}
+.superpricesuperoffer .superpricesuperoffercontainer .superpriceimg{
+
+margin:2rem 0rem;
+
+
+
+}
+.superpricesuperoffer .superpricesuperoffercontainer .superpriceimg img{
+  border-radius:1rem;
+}
+.superpricesuperoffer .superpricesuperoffercontainer .superpricescontainer{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 0.4fr));
+  
+  
+}
+.superpricesuperoffer .superpricesuperoffercontainer .superpricescontainer .superprices{
+  border:0.1rem solid  rgba(72, 72, 72,0.2);
+  
+  border-radius: 1rem;
+  width:22rem;
+  margin:2rem 0rem;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.superpricesuperoffer .superpricesuperoffercontainer .superpricescontainer .superprices .superpricestext{
+  text-align: center;
+  margin:1rem 0rem;
+  color:rgb(72, 72, 72);
+  font-size: 1.2rem;
+}
+.superpricesuperoffer .superpricesuperoffercontainer .superpricescontainer .superprices .superpricesimg img{
+  width: 100%;
+  object-fit: cover;
+  padding:0rem 1rem;
+}
+.superpricesuperoffer .superpricesuperoffercontainer .superpricescontainer .superprices .superpricesbuttons a{
+  display: flex;
+  
+  justify-content: center;
+  font-weight: 700;
+  color:rgb(246, 109, 0);
+  padding: 1.2rem 2rem;
+  margin: 1.5rem 0rem;
+  border-radius: 5rem;
+
+  font-size: 1.9rem;
+  
+}
+/*superpricesuperoffer end*/
+
+/*variouspromotions start*/
+
+.variouspromotionssection{
+margin:2rem 0rem;
+}
+
+.variouspromotionssection .promotionscontainer .promotionstextcontainer{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 0.4fr));
+  margin:1rem 0rem;
+  
+
+}
+.variouspromotionssection .promotionscontainer .promotionstextcontainer .promotionstexts{
+  color:rgb(72,72,72);
+  font-size:2rem;
+}
+.variouspromotionssection .promotionscontainer .promotionstextcontainer .promotionstexts span{
+font-weight: bold;
+}
+
+.variouspromotionssection .promotionscontainer .promotionsimgcontainer{
+  margin:2rem 0rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 0.3fr));
+  gap: 0rem;
+}
+.variouspromotionssection .promotionscontainer .promotionsimgcontainer img{
+  border-radius: 1rem;
+  margin:0rem 0rem;
+  padding:0;
+  width:22rem;
+}
+
+/*variouspromotions end*/
+
+/*brandyousearch start*/
+.brandyousearchsection{
+
+}
+.brandyousearchsection .brandyousearchtext{
+ font-size:3rem;
+ font-weight: 500;
+ color:rgb(72,72,72);
+ margin:1rem 0rem;
+
+}
+.brandyousearchsection .brandyousearchcontainer .brandyousearchimgcontainer{
+  display: flex;
+  margin:0;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+
+.brandyousearchsection  .brandyousearchimgcontainer .brandyouimg img{
+  width:15rem;
+  margin:2rem 0rem;
+  border:0.1rem solid rgba(72,72,72,0.1);
+  border-radius:1rem;
+  
+}
+.brandyousearchsection  .brandyousearchimgcontainer {
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+.brandyousearchsection  .brandyousearchimgcontainer .brandyouimg{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.brandyousearchsection  .brandyousearchimgcontainer .brandyouimg .brandyoutext{
+  font-size: 1.4rem;
+  font-weight: 500;
+  color:rgb(72, 72, 72);
+ 
+}
+
+
+/*brandyousearch end*/
+
+
+/*privilege start*/
+
+.privilege .privilegecontainer .privilegetitle{
+  font-size:3rem;
+ font-weight: 500;
+ color:rgb(72,72,72);
+ margin:6rem 0rem;
+ margin-bottom:2rem;
+}
+.privilege .privilegecontainer .privilegeimgcontainer{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.privilege .privilegecontainer .privilegeimgcontainer .privilegeimg img{
+  width:15rem;
+  height: 8rem;
+  object-fit: cover;
+  border-radius:1rem;
+  border:0.1rem solid rgba(72,72,72,0.1);
+  
+  margin:2rem 0rem;
+}
+.privilege .privilegecontainer .privilegeimgcontainer .privilegeimg{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.privilege .privilegecontainer .privilegeimgcontainer .privilegetext{
+  font-size: 1.4rem;
+  font-weight: 500;
+  color:rgb(72, 72, 72);
+
+}
+/*privilege end*/
+
+/*namesuggestion start*/
+
+.namesuggestion .namesuggestioncontainer{
+ 
+}
+.namesuggestion .namesuggestiontitle{
+  font-size:3rem;
+  font-weight: 500;
+  color:rgb(72,72,72);
+  margin:6rem 0rem;
+  margin-bottom:2rem;
+}
+
+.namesuggestion .namesuggestioncontainer .namesuggestioncontainerimg{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.namesuggestion .namesuggestioncontainer .namesuggestioncontainerimg .suggestionscreen{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height:30rem;
+  width:16rem;
+  border:0.1rem solid rgba(72,72,72,0.1);
+   border-radius:1rem;
+}
+.namesuggestion .namesuggestioncontainer .namesuggestioncontainerimg .suggestionscreen .suggestionimg img{
+  object-fit: cover;
+  width:100%;
+  display: flex;
+  align-self: center;
+}
+.namesuggestion .namesuggestioncontainer .namesuggestioncontainerimg .suggestionscreen .suggestiontext{
+  color:rgb(123,123,123);
+  font-size:1.2rem;
+  line-height: 1.6rem;
+  text-align: left;
+  margin-left:1.4rem;
+  font-weight: 600;
+
+}
+.namesuggestion .namesuggestioncontainer .namesuggestioncontainerimg .suggestionscreen .suggestionstars {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+.namesuggestion .namesuggestioncontainer .namesuggestioncontainerimg .suggestionscreen .suggestionstars .stars{
+  text-align:center;
+  color:rgb(255, 234, 0);
+}
+.namesuggestion .namesuggestioncontainer .namesuggestioncontainerimg .suggestionscreen .suggestionprices{
+  text-align: left;
+  margin-left:1.4rem;
+  color:rgb(72,72,72);
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+/*namesuggestion end*/
