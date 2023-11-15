@@ -1464,6 +1464,416 @@ font-weight: bold;
 .thinline .line{
   height: 0.1rem;
   background-color: rgba(72,72,72,0.2);
-  margin-bottom:10rem;
+  margin-bottom:5rem;
 }
 /*lastpage end */
+
+
+/*lastlisthepsiburada start*/
+
+
+.lastlists{
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+.lastlists ul li{
+  list-style-type: none;
+}
+.lastlists .hepsiburadaandinstitutional .hepsiburadalist .hepsiburadalisttitle{
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.lastlists .hepsiburadaandinstitutional .hepsiburadalist ul li{
+ margin-bottom:1rem;
+}
+.lastlists .hepsiburadaandinstitutional .hepsiburadalist ul li a{
+  color:rgba(72,72,72,0.6);
+  font-size: 1.2rem;
+  font-weight: 500;
+ 
+
+
+}
+
+
+/*lastlisthepsiburada end*/
+
+/*lastlistinstitutional start*/
+.lastlists .hepsiburadaandinstitutional .institutionallist .institutionallisttitle{
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.lastlists .hepsiburadaandinstitutional .institutionallist ul li{
+  margin-bottom:1rem;
+ }
+
+ .lastlists .hepsiburadaandinstitutional .institutionallist ul li a{
+  color:rgba(72,72,72,0.6);
+  font-size: 1.2rem;
+  font-weight: 500;
+ 
+
+
+}
+
+
+/*lastlistinstitutional end*/
+
+
+/*lastlistcategories start*/
+.lastlists .categoriesandpopularphones .categorieslist .categorieslisttitle{
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.lastlists .categoriesandpopularphones .categorieslist ul li{
+  margin-bottom:1rem;
+}
+.lastlists .categoriesandpopularphones .categorieslist ul li a{
+  color:rgba(72,72,72,0.6);
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+/*lastlistcategories end*/
+
+
+/*lastlistpopularphones start*/
+.lastlists .categoriesandpopularphones .popularphones .popularphonestitle{
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.lastlists .categoriesandpopularphones .popularphones ul li{
+  margin-bottom:1rem;
+}
+.lastlists .categoriesandpopularphones .popularphones ul li a{
+  color:rgba(72,72,72,0.6);
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+/*lastlistpopularphones end*/
+
+
+/*lastlistspecialpages start*/
+.lastlists .specialpagesandpopularbrands .specialpageslist .specialpageslisttitle{
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.lastlists .specialpagesandpopularbrands .specialpageslist ul li{
+  margin-bottom:1rem;
+}
+.lastlists .specialpagesandpopularbrands .specialpageslist ul li a{
+  color:rgba(72,72,72,0.6);
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+/*lastlistspecialpages end*/
+
+/*lastlistpopularbrands start*/
+.lastlists .specialpagesandpopularbrands .popularbrandslist .popularbrandstitle{
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.lastlists .specialpagesandpopularbrands .popularbrandslist ul li{
+  margin-bottom:1rem;
+}
+.lastlists .specialpagesandpopularbrands .popularbrandslist ul li a{
+  color:rgba(72,72,72,0.6);
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+/*lastlistpopularbrands end*/
+
+
+/*lastlistfollowus start*/
+.lastlists .followusandpayment .followuslist .followuslisttitle{
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.lastlists .followusandpayment .followuslist ul li{
+  margin-bottom:1rem;
+}
+.lastlists .followusandpayment .followuslist ul li i{
+  font-size: 2rem;
+  border:1rem solid rgb(125,125,125);
+  border-radius:5rem;
+  background-color: rgb(125,125,125);
+  color:white;
+ 
+}
+.lastlists .followusandpayment .followuslist ul li a{
+  color:rgba(72,72,72,0.6);
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+/*lastlistfollowus end*/
+
+/*lastlistpayment start*/
+
+.lastlists .followusandpayment .payment .paymenttitle{
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.lastlists .followusandpayment .payment ul li{
+  margin-bottom:1rem;
+}
+.lastlists .followusandpayment .payment ul li a{
+  color:rgba(72,72,72,0.6);
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+/*lastlistpayment end*/
+
+
+/*lastlistquestions start*/
+.lastlists .questionmobilappwearingfans {
+  display:flex;
+  flex-direction: column;
+  gap:2rem;
+}
+.lastlists .questionmobilappwearingfans .questionslist .questionlisttitle{
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+}
+.lastlists .questionmobilappwearingfans .questionslist ul li{
+  margin-bottom:1rem;
+}
+.lastlists .questionmobilappwearingfans .questionslist ul li a{
+  color:rgba(72,72,72,0.6);
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.lastlists .questionmobilappwearingfans .questionslist .connectcustomerservice{
+  color:rgb(125,125,125);
+  font-size: 1.2rem;
+  font-weight: 500;
+  border:0.1rem solid gray;
+  border-radius:0.4rem;
+  display: flex;
+  margin:2rem 0rem;
+  justify-content: center;
+  padding:0.9rem 1.3rem;
+}
+.lastlists .questionmobilappwearingfans .questionslist .or{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom:2rem;
+}
+
+.lastlists .questionmobilappwearingfans .questionslist .leftor{
+  height: 0.1rem;
+  width: 7rem;
+  background-color: rgba(125,125,125,0.4);
+}
+.lastlists .questionmobilappwearingfans .questionslist .or .ortext{
+  font-size: 1.6rem;
+  color: rgba(125,125,125,0.9);
+}
+.lastlists .questionmobilappwearingfans .questionslist .rightor{
+  height: 0.1rem;
+  width: 7rem;
+  background-color: rgba(125,125,125,0.4);
+}
+.lastlists .questionmobilappwearingfans .questionslist .customerservices{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap:2rem;
+  align-items: center;
+}
+.lastlists .questionmobilappwearingfans .questionslist .customerservices .text{
+  font-size: 1.3rem;
+  color:rgb(72, 72, 72);
+}
+.lastlists .questionmobilappwearingfans .questionslist .customerservices .number{
+  font-size: 2.4rem;
+  color:rgb(72, 72, 72);
+  font-weight: 600;
+}
+.lastlists .questionmobilappwearingfans .questionslist .customerservices .whatsapp{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.lastlists .questionmobilappwearingfans .questionslist .customerservices .whatsapp .text{
+font-size: 1.8rem;
+}
+.lastlists .questionmobilappwearingfans .questionslist .customerservices .whatsapp i{
+
+  
+  font-size:2.5rem;
+  color: rgb(13, 242, 13);
+}
+
+.lastlists .questionmobilappwearingfans .mobilapp{
+  
+ 
+}
+.lastlists .questionmobilappwearingfans .mobilapp .mobilapptitle{
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.lastlists .questionmobilappwearingfans .mobilapp .appstore {
+  opacity:0.7;
+  color:rgb(125,125,125);
+  font-size: 1.2rem;
+  font-weight: 500;
+  border:0.1rem solid gray;
+  border-radius:0.4rem;
+  display: flex;
+  margin:1rem 0rem;
+  justify-content: center;
+  padding:0.9rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.lastlists .questionmobilappwearingfans .mobilapp .appstore div{
+  
+}
+.lastlists .questionmobilappwearingfans .mobilapp .appstore i{
+  font-size:2rem;
+ 
+}
+.lastlists .questionmobilappwearingfans .mobilapp .appstore div{
+  font-weight: 600;
+}
+.lastlists .questionmobilappwearingfans .mobilapp .googleplay{
+  opacity:0.7;
+  color:rgb(125,125,125);
+  font-size: 1.2rem;
+  font-weight: 500;
+  border:0.1rem solid gray;
+  border-radius:0.4rem;
+ 
+  margin:1rem 0rem;
+  padding:0.9rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.lastlists .questionmobilappwearingfans .mobilapp .googleplay i{
+  font-size:2rem;
+  
+}
+.lastlists .questionmobilappwearingfans .mobilapp .appgallery{
+  opacity:0.7;
+  color:rgb(125,125,125);
+  font-size: 1.2rem;
+  font-weight: 500;
+  border:0.1rem solid gray;
+  border-radius:0.4rem;
+  display: flex;
+  margin:1rem 0rem;
+  justify-content: center;
+  padding:0.9rem 1rem;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.lastlists .questionmobilappwearingfans .mobilapp .appgallery i{
+  font-size:2rem;
+ 
+}
+.lastlists .questionmobilappwearingfans .mobilapp .appgallery:hover{
+  opacity: 1;
+}
+.lastlists .questionmobilappwearingfans .mobilapp .googleplay:hover{
+  opacity: 1;
+}
+.lastlists .questionmobilappwearingfans .mobilapp .appstore:hover{
+  opacity: 1;
+}
+
+
+.lastlists .wearing .wearingtitle {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.lastlists .wearing ul li{
+  margin-bottom:1rem;
+}
+.lastlists .wearing  ul li a{
+  color:rgba(72,72,72,0.6);
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.lastlists .fans .fanstitle {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.lastlists .fans ul li{
+  margin-bottom:1rem;
+}
+.lastlists .fans  ul li a{
+  color:rgba(72,72,72,0.6);
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+/*lastlistquestions end*/
+
+
+/*copyright start*/
+
+.copyright{
+  height: 11.2rem;
+  padding-top:2rem;
+  background-color: #f1f1f1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+
+.copyright .left .top{
+  display: flex;
+  align-items: center;
+  
+  
+}
+.copyright .left .top a img{
+  width: auto;
+  height: 3.5rem;
+  margin-right: 1rem;
+
+}
+.copyright .left .bottom{
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+  
+  
+}
+.copyright .left .bottom a img{
+  width: auto;
+  height: 3.7rem;
+  margin-right: 1rem;
+
+}
+.copyright .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap:2.2rem;
+  padding-right: 22rem;
+}
+.copyright .right .top a img{
+  width: auto;
+  height: 1.3rem;
+  margin-right: 1rem;
+
+}
+.copyright .right .bottom .text{
+  font-size: 1.2rem;
+}
+.copyright .right .bottom .text span{
+  color:rgb(145,145,145);
+}
+/*copyright end*/
